@@ -6,9 +6,9 @@ public class scrpt_turnAround : MonoBehaviour
 {
     public float m_RotationSpeed;
 
-    // Update is called once per frame
     void Update()
     {
         transform.Rotate(Vector3.up * (m_RotationSpeed * Time.deltaTime));
     }
+
 }

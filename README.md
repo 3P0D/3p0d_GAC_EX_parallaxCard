@@ -1,1 +1,1 @@
-# 3p0d_GAC_parallaxCard
+# 3p0d - Game Artist Course - Parallax Card Example

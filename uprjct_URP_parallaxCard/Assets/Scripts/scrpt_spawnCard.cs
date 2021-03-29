@@ -1,25 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class scrpt_spawnCard : MonoBehaviour
 {
 
     public GameObject[] m_cards;
-    public int currentIndex = 0;
-    public GameObject currentObject;
-    public GameObject spawner;
+    [Space(5)]
+    public TMP_Text m_nameText;
+
+    //Private
+    int currentIndex = 0;
+    GameObject currentObject;
+    scrpt_nameDescHolder _nameDesc;
+    GameObject _spawner;
+
 
     void Start()
     {
-        //Instantiate initial object
+        _spawner = this.gameObject;
         currentObject = Instantiate(m_cards[currentIndex]);
-        currentObject.transform.SetParent(spawner.transform);
+        currentObject.transform.SetParent(_spawner.transform);
     }
 
     public void Update()
     {
-        currentObject.transform.rotation = spawner.transform.rotation;
+        currentObject.transform.rotation = _spawner.transform.rotation;
     }
 
     public void Previous()
@@ -28,11 +35,13 @@ public class scrpt_spawnCard : MonoBehaviour
         currentIndex--;
         if (currentIndex > m_cards.Length || currentIndex < 0)
         {
-            currentIndex = 0;
+            currentIndex = m_cards.Length - 1;
         }
 
         currentObject = Instantiate(m_cards[currentIndex]);
-        currentObject.transform.SetParent(spawner.transform);
+        _nameDesc = currentObject.GetComponent<scrpt_nameDescHolder>();
+        m_nameText.text = _nameDesc.m_name;
+        currentObject.transform.SetParent(_spawner.transform);
     }
 
     public void Next()
@@ -44,6 +53,8 @@ public class scrpt_spawnCard : MonoBehaviour
             currentIndex = 0;
         }
         currentObject = Instantiate(m_cards[currentIndex]);
-        currentObject.transform.SetParent(spawner.transform);
+        _nameDesc = currentObject.GetComponent<scrpt_nameDescHolder>();
+        m_nameText.text = _nameDesc.m_name;
+        currentObject.transform.SetParent(_spawner.transform);
     }
 }

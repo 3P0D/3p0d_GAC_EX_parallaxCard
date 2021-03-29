@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "be.3p0d.basicunityprojecttemplate": {
+      "version": "https://github.com/3P0D/3p0d_package_templateUnityProject.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d7068085630fa61fa923971eeb4642a62a1f00ba"
+    },
     "com.unity.collab-proxy": {
       "version": "1.3.9",
       "depth": 0,

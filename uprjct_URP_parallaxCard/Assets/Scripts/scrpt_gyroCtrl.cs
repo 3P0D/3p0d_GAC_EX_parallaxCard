@@ -7,22 +7,36 @@ public class scrpt_gyroCtrl : MonoBehaviour
 {
     Gyroscope _gyro;
     Quaternion _convertgyro;
+    bool _switchView = true;
     public float m_rotintensity = 10;
-    Transform _camCtrl;
 
     public void Start()
     {
         _gyro = Input.gyro;
+
         _gyro.enabled = true;
-        _camCtrl = this.transform;
     }
 
     public void Update()
     {
-        Camera.main.transform.LookAt(transform);
-
         _convertgyro = _gyro.attitude;
-        transform.localRotation = Quaternion.Euler((_convertgyro.x * m_rotintensity) - 45, (_convertgyro.y * m_rotintensity), 0);
+
+        Camera.main.transform.eulerAngles = transform.eulerAngles;
+
+        if (_switchView)
+        {
+            transform.eulerAngles = new Vector3((_convertgyro.x * m_rotintensity) - 45, (_convertgyro.y * m_rotintensity), 0);
+        }
+
+        else
+        {
+            transform.eulerAngles = new Vector3((_convertgyro.x * m_rotintensity) - 45, (_convertgyro.y * m_rotintensity) + 180, 0);
+        }
+    }
+
+    public void Switch()
+    {
+        _switchView = !_switchView;
     }
 
 

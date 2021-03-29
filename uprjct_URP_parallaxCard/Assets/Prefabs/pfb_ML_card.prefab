@@ -104,6 +104,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 15352547882683867, guid: 721cc0c1686308b42a98498068b40854, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 15352547882683867, guid: 721cc0c1686308b42a98498068b40854, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 15352547882683867, guid: 721cc0c1686308b42a98498068b40854, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 15352547882683867, guid: 721cc0c1686308b42a98498068b40854, type: 3}
+      propertyPath: m_Intensity
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 775287515187043731, guid: 721cc0c1686308b42a98498068b40854, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.8987145
@@ -183,6 +199,18 @@ PrefabInstance:
     - target: {fileID: 2786851624155863036, guid: 721cc0c1686308b42a98498068b40854, type: 3}
       propertyPath: m_Name
       value: pfb_ML_card
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273315197224021793, guid: 721cc0c1686308b42a98498068b40854, type: 3}
+      propertyPath: m_background.b
+      value: 0.10148865
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273315197224021793, guid: 721cc0c1686308b42a98498068b40854, type: 3}
+      propertyPath: m_background.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273315197224021793, guid: 721cc0c1686308b42a98498068b40854, type: 3}
+      propertyPath: m_background.r
+      value: 0.41509432
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 721cc0c1686308b42a98498068b40854, type: 3}

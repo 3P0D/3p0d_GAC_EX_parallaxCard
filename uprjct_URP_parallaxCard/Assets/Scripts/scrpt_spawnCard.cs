@@ -13,7 +13,7 @@ public class scrpt_spawnCard : MonoBehaviour
     //Private
     int currentIndex = 0;
     GameObject currentObject;
-    scrpt_nameDescHolder _nameDesc;
+    scrpt_cardProfile _cardProfile;
     GameObject _spawner;
 
 
@@ -39,9 +39,11 @@ public class scrpt_spawnCard : MonoBehaviour
         }
 
         currentObject = Instantiate(m_cards[currentIndex]);
-        _nameDesc = currentObject.GetComponent<scrpt_nameDescHolder>();
-        m_nameText.text = _nameDesc.m_name;
         currentObject.transform.SetParent(_spawner.transform);
+
+        _cardProfile = currentObject.GetComponent<scrpt_cardProfile>();
+        m_nameText.text = _cardProfile.m_name;
+        Camera.main.backgroundColor = _cardProfile.m_background;
     }
 
     public void Next()
@@ -53,8 +55,10 @@ public class scrpt_spawnCard : MonoBehaviour
             currentIndex = 0;
         }
         currentObject = Instantiate(m_cards[currentIndex]);
-        _nameDesc = currentObject.GetComponent<scrpt_nameDescHolder>();
-        m_nameText.text = _nameDesc.m_name;
         currentObject.transform.SetParent(_spawner.transform);
+
+        _cardProfile = currentObject.GetComponent<scrpt_cardProfile>();
+        m_nameText.text = _cardProfile.m_name;
+        Camera.main.backgroundColor = _cardProfile.m_background;
     }
 }

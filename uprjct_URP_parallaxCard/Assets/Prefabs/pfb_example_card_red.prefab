@@ -53,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2786851624155863036, guid: 721cc0c1686308b42a98498068b40854, type: 3}
       propertyPath: m_Name
-      value: pfb_card_example_red
+      value: pfb_example_card_red
       objectReference: {fileID: 0}
     - target: {fileID: 3811514931022526264, guid: 721cc0c1686308b42a98498068b40854, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -66,6 +66,18 @@ PrefabInstance:
     - target: {fileID: 4273315197224021793, guid: 721cc0c1686308b42a98498068b40854, type: 3}
       propertyPath: m_description
       value: 'Red Red Red Red Red Red Red Red Red Red Red Red '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273315197224021793, guid: 721cc0c1686308b42a98498068b40854, type: 3}
+      propertyPath: m_background.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273315197224021793, guid: 721cc0c1686308b42a98498068b40854, type: 3}
+      propertyPath: m_background.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273315197224021793, guid: 721cc0c1686308b42a98498068b40854, type: 3}
+      propertyPath: m_background.r
+      value: 0.3207547
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 721cc0c1686308b42a98498068b40854, type: 3}

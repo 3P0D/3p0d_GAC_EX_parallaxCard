@@ -3768,7 +3768,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "f58f729c49134a1594c078c6b287b67e",
     "m_Id": 0,
-    "m_DisplayName": "ShadowA",
+    "m_DisplayName": "ShadowColor",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",

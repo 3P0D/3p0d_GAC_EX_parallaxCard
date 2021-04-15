@@ -9,6 +9,7 @@ public class scrpt_spawnCard : MonoBehaviour
     public GameObject[] m_cards;
     [Space(5)]
     public TMP_Text m_nameText;
+    public TMP_Text m_artNameText;
 
     //Private
     int currentIndex = 0;
@@ -22,6 +23,10 @@ public class scrpt_spawnCard : MonoBehaviour
         _spawner = this.gameObject;
         currentObject = Instantiate(m_cards[currentIndex]);
         currentObject.transform.SetParent(_spawner.transform);
+
+        _cardProfile = currentObject.GetComponent<scrpt_cardProfile>();
+        m_artNameText.text = _cardProfile.m_artistname;
+        Camera.main.backgroundColor = _cardProfile.m_background;
     }
 
     public void Update()
@@ -42,7 +47,7 @@ public class scrpt_spawnCard : MonoBehaviour
         currentObject.transform.SetParent(_spawner.transform);
 
         _cardProfile = currentObject.GetComponent<scrpt_cardProfile>();
-        m_nameText.text = _cardProfile.m_name;
+        m_artNameText.text = _cardProfile.m_artistname;
         Camera.main.backgroundColor = _cardProfile.m_background;
     }
 
@@ -59,6 +64,7 @@ public class scrpt_spawnCard : MonoBehaviour
 
         _cardProfile = currentObject.GetComponent<scrpt_cardProfile>();
         m_nameText.text = _cardProfile.m_name;
+        m_artNameText.text = _cardProfile.m_artistname;
         Camera.main.backgroundColor = _cardProfile.m_background;
     }
 }

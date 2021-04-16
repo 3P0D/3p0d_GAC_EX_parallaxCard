@@ -359,6 +359,7 @@ MonoBehaviour:
   - {fileID: 6057512810983596816, guid: b5ba185850eadbb40a5a95bf0f6ce424, type: 3}
   - {fileID: 704663128747959205, guid: 9ef957d9cab68d6449bf72babe1bef54, type: 3}
   - {fileID: 2775609417747646900, guid: 4948def8464ca2e43a746038a8fb048b, type: 3}
+  - {fileID: 4630460455430817536, guid: ba424fb7a73aa8a47b9b7771750280f6, type: 3}
   m_nameText: {fileID: 1053739249}
   m_artNameText: {fileID: 383458100}
 --- !u!1 &383458098

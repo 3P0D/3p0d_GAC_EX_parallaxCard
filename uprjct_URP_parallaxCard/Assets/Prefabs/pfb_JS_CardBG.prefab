@@ -5619,6 +5619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pfb_JS_CardBG
       objectReference: {fileID: 0}
+    - target: {fileID: 2786851624155863036, guid: 721cc0c1686308b42a98498068b40854, type: 3}
+      propertyPath: m_TagString
+      value: Card
+      objectReference: {fileID: 0}
     - target: {fileID: 4273315197224021793, guid: 721cc0c1686308b42a98498068b40854, type: 3}
       propertyPath: m_name
       value: Jacquet Sullivan

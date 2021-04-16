@@ -740,8 +740,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8839100137466896881}
   m_Layer: 7
-  m_Name: TNTC_2021_ParallaxCard_BOUCKAERT_Adrien
-  m_TagString: Untagged
+  m_Name: pfb_0_AB_background
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295

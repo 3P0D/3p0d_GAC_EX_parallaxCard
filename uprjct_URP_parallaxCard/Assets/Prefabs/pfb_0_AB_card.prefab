@@ -5894,6 +5894,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TNTC_2021_ParallaxCard_BOUCKAERT_Adrien
       objectReference: {fileID: 0}
+    - target: {fileID: 8205868664036162379, guid: 1bc03baf41b7f7f4b94fa45a9e5abdc8, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8839100137466896881, guid: 1bc03baf41b7f7f4b94fa45a9e5abdc8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6025,7 +6029,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2786851624155863036, guid: 721cc0c1686308b42a98498068b40854, type: 3}
       propertyPath: m_Name
-      value: pfb_0_AB_card Variant
+      value: pfb_0_AB_card
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786851624155863036, guid: 721cc0c1686308b42a98498068b40854, type: 3}
+      propertyPath: m_TagString
+      value: Card
       objectReference: {fileID: 0}
     - target: {fileID: 2786851624458782369, guid: 721cc0c1686308b42a98498068b40854, type: 3}
       propertyPath: m_IsActive

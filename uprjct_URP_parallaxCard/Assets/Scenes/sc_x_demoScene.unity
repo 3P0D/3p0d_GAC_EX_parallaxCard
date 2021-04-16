@@ -361,6 +361,8 @@ MonoBehaviour:
   - {fileID: 2775609417747646900, guid: 4948def8464ca2e43a746038a8fb048b, type: 3}
   - {fileID: 4630460455430817536, guid: ba424fb7a73aa8a47b9b7771750280f6, type: 3}
   - {fileID: 2315345832070004047, guid: 5fffce63260ab59468369cbb7351430e, type: 3}
+  - {fileID: 4994590487082450015, guid: c590a6a2d1d75354b9ba3f66cfbcdde4, type: 3}
+  - {fileID: 4407512786892007061, guid: fcdd7ca0a6f7b4d40a1a6beff74eb672, type: 3}
   m_nameText: {fileID: 1053739249}
   m_artNameText: {fileID: 383458100}
 --- !u!1 &383458098

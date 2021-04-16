@@ -1136,8 +1136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae4da3642d33d524eac8969e534b6b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_name: Name Name
-  m_artistname: Your Artist Name
+  m_name: Template Card
+  m_artistname: "Game Artist - Technocit\xE9 2021"
   m_background: {r: 0.1137255, g: 0.1137255, b: 0.1137255, a: 1}
 --- !u!1 &2786851624458782369
 GameObject:

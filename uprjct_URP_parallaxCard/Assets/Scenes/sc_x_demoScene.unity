@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_cards:
-  - {fileID: 348799462787835240, guid: e92adb3866396f341802d15e3d2ce067, type: 3}
+  - {fileID: 2786851624155863036, guid: 721cc0c1686308b42a98498068b40854, type: 3}
   - {fileID: 4851847825276762875, guid: ccd474b47c614f147a96a57b2aa4fe3c, type: 3}
   - {fileID: 6057512810983596816, guid: b5ba185850eadbb40a5a95bf0f6ce424, type: 3}
   - {fileID: 704663128747959205, guid: 9ef957d9cab68d6449bf72babe1bef54, type: 3}
@@ -365,6 +365,7 @@ MonoBehaviour:
   - {fileID: 4407512786892007061, guid: fcdd7ca0a6f7b4d40a1a6beff74eb672, type: 3}
   - {fileID: 8969191388647445641, guid: 70cca0316407b4642899510b7816790b, type: 3}
   - {fileID: 8326782829368502384, guid: 1cbc2c441261f764aa040c9c5eb8e183, type: 3}
+  - {fileID: 765947751917733714, guid: 092c002dbffce5148a2c2644756e2ab0, type: 3}
   m_nameText: {fileID: 1053739249}
   m_artNameText: {fileID: 383458100}
 --- !u!1 &383458098
@@ -1036,7 +1037,6 @@ GameObject:
   - component: {fileID: 1105656725}
   - component: {fileID: 1105656724}
   - component: {fileID: 1105656727}
-  - component: {fileID: 1105656728}
   - component: {fileID: 1105656729}
   m_Layer: 0
   m_Name: MainCam
@@ -1142,19 +1142,6 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!114 &1105656728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1105656723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 921422e62924254488753e028cc315db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_rotintensity: 10
 --- !u!114 &1105656729
 MonoBehaviour:
   m_ObjectHideFlags: 0

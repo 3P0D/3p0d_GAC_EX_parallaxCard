@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: c7a1e0714d286db43924e73cecbda809
+guid: a97485c080ea63e4ca3fbab60c606c08
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_ML_gold
+    second: {fileID: 2100000, guid: f417e48c8b5d6a44c9a3f562eda3c893, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_ML_normal
+    second: {fileID: 2100000, guid: ba77a9748de846d45bc64030773253aa, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

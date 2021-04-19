@@ -20755,6 +20755,10 @@ PrefabInstance:
       propertyPath: m_background.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5689312230837621326, guid: 721cc0c1686308b42a98498068b40854, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6057963013846443912, guid: 721cc0c1686308b42a98498068b40854, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

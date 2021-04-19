@@ -10135,7 +10135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2507233161883923884, guid: 985ae7b5b90142547a7365997c6dd7e8, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -2507233161883923884, guid: 985ae7b5b90142547a7365997c6dd7e8, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -10144,7 +10144,7 @@ PrefabInstance:
     - target: {fileID: -2507233161883923884, guid: 985ae7b5b90142547a7365997c6dd7e8, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: 7af3853230930f346ab34f07d2536cf0, type: 2}
     - target: {fileID: 919132149155446097, guid: 985ae7b5b90142547a7365997c6dd7e8, type: 3}
       propertyPath: m_Name
       value: M_LL_WoodCard_var_00_a

@@ -1,1 +1,1 @@
-# 3p0d - Game Artist Course - Parallax Card Example
+# 3p0d - Game Artist Course - Parallax Card - Technocite 2021
